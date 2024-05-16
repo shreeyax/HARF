@@ -1,0 +1,277 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.questrial-regular {
+    font-family: "Questrial", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+.birthstone-regular {
+    font-family: "Birthstone", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+.logo {
+    max-width: 250px;
+  }
+
+#header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 10px;
+    background: transparent;
+}
+
+#navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#navbar li {
+    list-style: none;
+    padding: 0 20px;
+}
+
+#navbar li a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 350;
+    color: rgb(0, 0, 0);
+
+}
+
+#navbar li a:hover,
+#navbar li a.active {
+    color: #f5bd02;
+}
+
+.section-p1{
+    padding: 40px 80px;
+}
+
+video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index:-100;
+  }
+
+  #banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 45vh; 
+}
+#banner p{
+    padding: 10px;
+    margin: 0;
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 500;
+    font-style: italic;
+}
+
+#banner h1, #banner h3 {
+    padding: 10px;
+    margin: 0;
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 500;
+    font-style: italic;
+}
+
+#banner button{
+    background-color: transparent;
+    color: black;
+    border: 0;
+    border-bottom: 1px solid #000;
+    padding-bottom: 3px;
+    justify-content: center;
+    cursor: pointer;
+}
+
+img {
+    max-width: 20%;
+    max-height: 20%;
+    padding: 25px 15px;
+}
+
+#About h3 {
+    font-family: Arial;
+    font-size: 15px;
+    font-style: italic;
+    text-align: center; 
+    padding: 0.5%;
+} 
+
+#About h4 {
+    font-family: Arial;
+    font-size: 15px;
+    font-style: italic;
+    text-align: center; 
+    padding: 0.5%;
+}
+
+#About p {
+    font-family: Arial;
+    font-size: 15px;
+    text-align: center; 
+    padding: 2px;
+    inline-size: none;
+}
+
+#product1{
+    text-align: center;
+}
+
+#product1 .pro-container {
+    display: inline-block;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background: #f7f7f7;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-container {
+  background: #fff;
+  position: absolute;
+  top: 0;
+  height: 100%;
+  transition: all 0.6s ease-in-out;
+}
+
+.sign-in-container {
+  left: 0;
+  width: 50%;
+  z-index: 2;
+}
+
+.sign-up-container {
+  left: 0;
+  width: 50%;
+  opacity: 0;
+  z-index: 1;
+}
+
+.overlay-container {
+  position: absolute;
+  top: 0;
+  width: 50%;
+  height: 100%;
+  overflow: hidden;
+  transition: transform 0.6s ease-in-out;
+  z-index: 100;
+}
+
+.container{
+    background-color: none;
+
+}
+
+.form-box{
+    width: 90%;
+    max-width: 450px;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    padding: 50px 50px 50px;
+
+}
+
+.form-box h1{
+    font-size: 30px;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.form-box h1::after{
+    content: '';
+    width: 30px;
+    height: 4px;
+    border-radius: 3px;
+    position: absolute;
+    bottom: -12px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.input-field {
+    margin: 15px 0;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    background: #eaeaea;
+
+}
+
+input{
+   width: 100px;
+   background: transparent;
+   border: 0;
+   outline: 0;
+   padding: 18px 15px;
+
+}
+
+.input-field span{
+    margin-left: 15px;
+    color: #999;
+
+}
+form p{
+    text-align: left;
+    font-size: 13px;
+
+}
+
+form p a{
+    text-decoration: none;
+    color: #3c00a0;
+}
+
+.button-field{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.button-field button{
+    flex-basis: 48%;
+    background: #f4d46c;
+    color: #000;
+    height: 40px;
+    border-radius: 20px;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+}
