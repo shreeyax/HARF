@@ -230,6 +230,9 @@ body {
     display: flex;
     align-items: center;
     background: #eaeaea;
+    max-height: 65px;
+    transition: max-height 0.5s;
+    overflow: hidden;
 
 }
 
@@ -265,6 +268,10 @@ form p a{
 
 }
 
+.input-group{
+    height: 250px;
+}
+
 .button-field button{
     flex-basis: 48%;
     background: #f4d46c;
@@ -274,4 +281,8 @@ form p a{
     border: 0;
     outline: 0;
     cursor: pointer;
+}
+.button-field button.disable{
+    background: #eaeaea;
+    color: #555;
 }

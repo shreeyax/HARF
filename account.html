@@ -25,10 +25,11 @@
     </section>
     <div class="container">
         <div class="form-box">
-            <h1>Sign Up</h1>
+            <h1 id="title">Sign Up</h1>
             <form>
+               <div>
                 <div class="input-group">
-                    <div class="input-field">
+                    <div class="input-field" id="nameField">
                     <span class="material-symbols-outlined">person</span>
                     <input type="text" placeholder="Name">
                 </div>
@@ -42,17 +43,15 @@
                     <span class="material-symbols-outlined">lock</span>
                     <input type="password" placeholder="Password">
                 </div>
-                <p>Lost Password <a href="#">Click Here!</a></p>
+                <p>Forgot Password <a href="#">Click Here!</a></p>
+                </div> 
             </form>
             <div class="button-field">
-                <button type="button">Sign Up</button>
-                <button type="button">Log In</button>
+                <button type="button"id="signupBtn">Sign Up</button>
+                <button type="button" id="loginBtn" class="disable">Log In</button>
             </div>
         </div>
     </div>
-
-
-
 
 </body>
 </html>
